@@ -1,0 +1,475 @@
+/* ----------------------------------------------------------------
+	
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+
+	FONT SCALE:
+	h1: 53.75px
+	h2: 44.79px
+	h3: 37.32px
+	h4: 31.1px
+	h5: 25.92px
+	h6: 21.6px
+	p: 18px
+	small: 15px
+		   12.5px
+
+-----------------------------------------------------------------*/
+
+
+h1 {
+	margin-top: -30px;
+	font-size: 53.75;
+	font-family: joly-display, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+h2 {
+	font-size: 44.79px;
+	font-family: joly-display, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	margin-bottom: 0px;
+}
+
+.widget-subscribe-form-result {
+	position: relative;
+}
+
+.home-img {
+	position: absolute;
+	top: 90px;
+	left: -300px;
+	width: 518px;
+	height: 646.5px;
+}
+
+.sign-img {
+	position: absolute;
+	top: 160px;
+	left: -300px;
+	width: 541px;
+	height: 482px;
+}
+
+.col-padding {
+	padding-left: 275px;
+}
+
+.logo {
+	padding: 15px;
+}
+
+a:hover {
+	color: var(--black);
+	transition: 0.3s;
+}
+
+
+.menu-link:hover {
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+.header-intro-text {
+	font-family: lindsey-signature, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 53.75px;
+	color: var(--black) !important;
+}
+
+p {
+	font-family: area-normal, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 30px;
+	margin: 0px;
+}
+
+.p-style {
+	font-family: area-normal, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: var(--black);
+}
+
+.italic-p {
+	font-style: italic;
+}
+
+.about-text {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* CodePen arrow */
+.about-btn {
+	margin-top: 20px;
+}
+
+.arrow {
+	color: var(--black);
+
+	&::after {
+		display: inline-block;
+		padding-left: 8px;
+		content: "\0279E";
+		-webkit-transition: transform 0.3s ease-out;
+		-moz-transition: transform 0.3s ease-out;
+		-ms-transition: transform 0.3s ease-out;
+		-o-transition: transform 0.3s ease-out;
+		transition: transform 0.3s ease-out;
+	}
+
+	&:hover {
+
+		&::after {
+			-webkit-transform: translateX(4px);
+			-moz-transform: translateX(4px);
+			-ms-transform: translateX(4px);
+			-o-transform: translateX(4px);
+			transform: translateX(4px);
+		}
+	}
+}
+
+/* End CodePen arrow */
+
+#footer {
+	font-family: area-normal, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	padding-top: 30px;
+
+}
+
+.footer-text {
+	padding: 0px !important;
+	margin: 0px;
+	color: white !important;
+}
+
+.footer-info {
+	margin: 0px;
+	padding-top: 100px;
+}
+
+.filled-btn {
+	font-family: area-normal, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	background-color: var(--black);
+	margin: 0px;
+}
+
+.bold-p {
+	font-family: area-normal, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18px;
+}
+
+.dark {
+	background-color: var(--blue) !important;
+}
+
+.btn-header {
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+.outlined-btn {
+	font-family: area-normal, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	border-color: var(--black);
+	background: rgba(0, 0, 0, 0);
+	margin: 0px;
+	color: var(--black);
+}
+
+.button:hover {
+	background-color: var(--blue);
+	border-color: var(--blue);
+}
+
+.social-icon {
+	margin: 10px 10px 0px 0px !important;
+}
+
+.door-img {
+	max-width: 80%;
+}
+
+.block-hero-6 {
+	background-color: var(--tan);
+}
+
+.our-work {
+	margin-top: 150px;
+	margin-bottom: 180px;
+}
+
+.contact-us {
+	margin: 0px !important;
+}
+
+.form-section {
+	padding: 0px !important;
+}
+
+.message-btn {
+	margin-top: 40px;
+}
+
+.bold {
+	font-weight: 600;
+	font-style: normal;
+	font-size: 18px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.joly {
+	font-family: joly-display, sans-serif;
+}
+
+.area {
+	font-family: area-normal, sans-serif;
+}
+
+.small {
+	font-size: 15px;
+}
+
+.small2 {
+	font-size: 12.5px;
+	text-decoration: underline;
+}
+
+.ourteam-img {
+	position: absolute;
+	top: 90px;
+	left: -300px;
+	height: 614px;
+	width: 540px;
+}
+
+.ourteam-h2 {
+	padding-bottom: 50px;
+}
+
+#reveal {
+	display: none;
+}
+
+.dropdown {
+	position: bottom;
+
+}
+
+.btn {
+	width: 100% !important;
+	text-align: left !important;
+}
+
+.dropdown {
+	padding-top: 15px;
+}
+
+.btn-dropdown {
+	border: 1px solid #cccccc84;
+	background-color: white;
+}
+
+.btn-dropdown:hover {
+	border-color: black;
+	background-color: white;
+}
+
+a.dropdown-item {
+	width: 100%;
+}
+
+.reveal-dropdown {
+	background-color: white;
+	width: 100%;
+	padding: 20px;
+}
+
+.appt-card {
+	background-color: var(--blue);
+}
+
+.form-instructions {
+	padding-bottom: 50px;
+}
+
+.results-btn {
+	border: 1px var(--black) solid;
+	margin-top: 50px;
+	margin-left: 425px;
+	margin-right: 425px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.results-btn:hover {
+	background-color: var(--black);
+	color: white;
+	transition: var(--cnvs-transitions);
+	cursor: pointer;
+}
+
+.book-btn {
+	border: 1px var(--black) solid;
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+
+.book-btn-div {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.reveal-dropdown {
+	margin-top: 20px;
+}
+
+.book-btn:hover {
+	background-color: var(--black);
+	color: white;
+}
+
+:root {
+	--black: #1F1F1F;
+	--blue: #A6B3B4;
+	--tan: #F0E5D9;
+}
+
+/* Phone Media Query */
+@media screen and (max-width: 480px) {
+	.sign-img {
+		display: none;
+	}
+
+	.home-img {
+		display: none;
+	}
+
+	.ourteam-img {
+		display: none;
+	}
+
+	.widget-subscribe-form-result {
+		display: none;
+	}
+
+	.col-padding {
+		padding: 0px;
+	}
+
+	.heading-appt-padding {
+		margin-left: 0px !important;
+		margin-top: -500px;
+		text-align: center;
+	}
+
+	.appt-img {
+		opacity: 0.6;
+		padding-bottom: 705px !important;
+	}
+
+	.slider-inner {
+		height: 700px;
+	}
+
+	#slider .slider-inner {
+		display: inline;
+	}
+
+	.results-btn {
+		margin: 20px 0px 0px 0px;
+	}
+
+	.form-instructions {
+		padding-bottom: 10px;
+	}
+
+	.appt-block {
+		padding: 0px 0px 80px 0px;
+	}
+
+	.footer-info {
+		padding-top: 0px;
+		padding-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.index-bg-img {
+		padding-bottom: 705px !important;
+		opacity: 0.6;
+	}
+
+	.heading-index-padding {
+		margin: -625px 0px 0px 0px !important;
+		text-align: center;
+	}
+
+	.btn-header {
+		margin-right: 0px;
+		margin-top: 20px;
+	}
+
+	.hide-mobile {
+		display: none;
+	}
+
+	#about-section {
+		padding: 10px;
+	}
+
+	.fancy-title {
+		margin-bottom: 10px;
+	}
+
+	.our-team-heading {
+		margin: -500px 0px 0px 0px !important;
+		text-align: center;
+	}
+
+	.ourteam-heading-img {
+		padding-bottom: 705px !important;
+		opacity: 0.6;
+	}
+
+	.m-3 {
+		margin-bottom: 0px !important;
+		margin-left: 0px !important;
+	}
+
+	.card-body {
+		padding: 15px !important;
+	}
+
+	.text-center-mobile {
+		text-align: center;
+	}
+
+	#about-section {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
